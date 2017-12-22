@@ -48,6 +48,8 @@ Paper being validated by [Anand Saha](http://teleported.in/about/about/) as part
 | adam      | 0.0001        | 61.65               |
 | cocob     | N/A           | 93.74               |
 
+Batch size was 100. The Train Err is nothing but `1 - accuracy`. The graphs which shoot down actually could fit the entire training dataset, hence accuracy became 1.
+
 ![mnist_fc.png](images/mnist_fc.png)
 
 **`MNIST with CNN`**
@@ -59,6 +61,8 @@ Paper being validated by [Anand Saha](http://teleported.in/about/about/) as part
 | adadelta  | 0.1           | 128.51              |
 | adam      | 0.0001        | 120.97              |
 | cocob     | N/A           | 188.70              |
+
+Batch size was 100. The Train Err is nothing but `1 - accuracy`. 
 
 ![mnist_cnn.png](images/mnist_cnn.png)
 
@@ -75,6 +79,8 @@ With batchsize of 100 and L or 1e-8 (default):
 | adam      | 0.0001        | 480.96              |
 | cocob     | N/A           | 631.81              |
 
+The graphs which shoot down actually could fit the entire training dataset, hence accuracy became 1.
+
 ![CIFAR10a](images/cifar1.png)
 
 With batchsize of 1000 and L or 1e-2 (this smoothened the loss function and made cocob perform better):
@@ -86,6 +92,8 @@ With batchsize of 1000 and L or 1e-2 (this smoothened the loss function and made
 | adadelta  | 0.1           | 339.40              |
 | adam      | 0.0001        | 334.83              |
 | cocob     | N/A           | 346.53              |
+
+The graphs which shoot down actually could fit the entire training dataset, hence accuracy became 1.
 
 ![CIFAR10b](images/cifar2.png)
 
