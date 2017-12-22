@@ -36,9 +36,11 @@ Paper being validated by [Anand Saha](http://teleported.in/about/about/) as part
     * I used different learning rates for non-cocob optimizers than used by the authors so as to present all optimizers to the best of their ability, on my setup/models.
     * For the word prediction test, I used the [word_language_model](https://github.com/pytorch/examples/tree/master/word_language_model) from PyTorch examples.
 
-### Graphs:
+## Graphs
 
-**`MNIST with fully connected network`**
+Check the `cocob_report.ipynb` for validation cost/errors.
+
+### MNIST with fully connected network
 
 | Optimizer | Learning rate | Time to train (sec) |
 |-----------|---------------|---------------------|
@@ -52,7 +54,7 @@ Batch size was 100. The Train Err is nothing but `1 - accuracy`. The graphs whic
 
 ![mnist_fc.png](images/mnist_fc.png)
 
-**`MNIST with CNN`**
+### MNIST with CNN
 
 | Optimizer | Learning rate | Time to train (sec) |
 |-----------|---------------|---------------------|
@@ -67,7 +69,7 @@ Batch size was 100. The Train Err is nothing but `1 - accuracy`.
 ![mnist_cnn.png](images/mnist_cnn.png)
 
 
-**`CIFAR-10 with CNN`**
+### CIFAR-10 with CNN
 
 With batchsize of 100 and L or 1e-8 (default):
 
@@ -97,7 +99,7 @@ The graphs which shoot down actually could fit the entire training dataset, henc
 
 ![CIFAR10b](images/cifar2.png)
 
-**`Word Prediction on Penn Tree Bank `**
+### Word Prediction on Penn Tree Bank
 ![penn1](images/ptb1.png)
 ![penn2](images/ptb2.png)
 
