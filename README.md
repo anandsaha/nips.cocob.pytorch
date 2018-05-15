@@ -5,7 +5,6 @@ Paper: [https://arxiv.org/abs/1705.07795](https://arxiv.org/abs/1705.07795) by F
 
 Paper being validated by [Anand Saha](http://teleported.in/about/about/) as part of [NIPS paper implementation challenge](https://nurture.ai/nips-challenge/).
 
-Please do raise a _github issue_ if you find any mistake in the implementation or experiments.
 
 ### Files:
 
